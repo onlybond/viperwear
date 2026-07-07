@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
-import { ShoppingCart, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
@@ -54,13 +54,8 @@ export default function Header() {
 
         {/* Right Action Icons */}
         <div className="flex items-center gap-5">
-          <button className="relative bg-bg-tertiary border border-border-color p-2.5 rounded-full hover:border-accent-gold hover:text-accent-gold hover:bg-accent-gold/5 transition-all cursor-pointer" aria-label="Cart">
-            <ShoppingCart size={18} />
-            <span className="absolute -top-1 -right-1 bg-accent-gold text-black text-[9px] font-bold w-4.5 h-4.5 rounded-full flex items-center justify-center">
-              0
-            </span>
-          </button>
           
+
           {/* Mobile Menu Button */}
           <button
             className="md:hidden text-text-primary cursor-pointer"

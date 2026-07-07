@@ -144,16 +144,16 @@ export default function Footer() {
             </h3>
             <ul className="flex flex-col gap-4 text-sm text-text-secondary">
               <li className="flex flex-col gap-1">
-                <span className="text-[10px] font-semibold text-text-muted uppercase tracking-wider">Phone:</span>
-                <a href="tel:+919876543210" className="hover:text-accent-gold transition-colors">+91 98765 43210</a>
+                <span className="text-[10px] font-semibold text-text-muted uppercase tracking-wider">WhatsApp:</span>
+                <a href="https://wa.me/919885039653" target="_blank" rel="noopener noreferrer" className="hover:text-accent-gold transition-colors">+91 98850 39653</a>
               </li>
               <li className="flex flex-col gap-1">
                 <span className="text-[10px] font-semibold text-text-muted uppercase tracking-wider">Email:</span>
-                <a href="mailto:info@viper.in" className="hover:text-accent-gold transition-colors">info@viper.in</a>
+                <a href="mailto:support@shopviper.in" className="hover:text-accent-gold transition-colors">support@shopviper.in</a>
               </li>
               <li className="flex flex-col gap-1">
                 <span className="text-[10px] font-semibold text-text-muted uppercase tracking-wider">Location:</span>
-                <span>Mumbai, India</span>
+                <span>Hyderabad, India</span>
               </li>
             </ul>
           </div>

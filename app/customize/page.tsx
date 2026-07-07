@@ -150,7 +150,7 @@ export default function CustomizeLanding() {
           </div>
           
           {/* Action Button Below Showcase */}
-          <div className="mt-10 w-full max-w-[480px] flex justify-center">
+          <div className="mt-10 w-full max-w-[480px] flex flex-col items-center justify-center gap-6">
             <Link
               href="/customize/studio"
               className="flex items-center justify-center gap-2 bg-accent-gold hover:bg-accent-gold-hover text-black font-display text-sm font-bold tracking-wider px-10 py-5 rounded-xl transition-all glow-btn w-full cursor-pointer"
@@ -158,6 +158,14 @@ export default function CustomizeLanding() {
               START CUSTOMIZING
               <ArrowRight size={16} />
             </Link>
+            <div className="text-center text-text-muted text-sm flex flex-col gap-2">
+              <p>This is just a demo for the upcoming customization feature.</p>
+              <p>To order and customize jerseys, contact us on WhatsApp:</p>
+              <a href="https://wa.me/919885039653" target="_blank" rel="noopener noreferrer" className="text-accent-gold font-bold text-lg hover:text-white transition-colors">
+                +91 98850 39653
+              </a>
+              <p>Email: <a href="mailto:support@shopviper.in" className="text-white hover:text-accent-gold transition-colors">support@shopviper.in</a></p>
+            </div>
           </div>
         </div>
       </div>

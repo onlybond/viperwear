@@ -67,12 +67,6 @@ export default function Home() {
                 CUSTOMIZE NOW
                 <ArrowRight size={16} />
               </Link>
-              <Link
-                href="/contact"
-                className="flex items-center justify-center bg-bg-tertiary hover:bg-bg-accent border border-border-color hover:border-text-secondary text-text-primary font-display text-sm font-semibold tracking-wider px-8 py-4 rounded-xl transition-all w-full sm:w-auto cursor-pointer"
-              >
-                EXPLORE STORE
-              </Link>
             </div>
           </div>
           
@@ -275,6 +269,14 @@ export default function Home() {
             START CUSTOMIZING
             <ArrowRight size={16} />
           </Link>
+          <div className="mt-8 text-center text-text-muted text-sm flex flex-col gap-2">
+            <p>This is just a demo for the upcoming customization feature.</p>
+            <p>To order and customize jerseys, contact us on WhatsApp:</p>
+            <a href="https://wa.me/919885039653" target="_blank" rel="noopener noreferrer" className="text-accent-gold font-bold text-lg hover:text-white transition-colors">
+              +91 98850 39653
+            </a>
+            <p>Email: <a href="mailto:support@shopviper.in" className="text-white hover:text-accent-gold transition-colors">support@shopviper.in</a></p>
+          </div>
         </div>
       </section>
 
